@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="shortcut icon" href="./icons8-quiz-65.png" />
+  <title>THE QUIZ GAME by Samir Hanna</title>
+</head>
+
+<body>
+  <div class="quiz">
+    <div class="quiz__container">
+      <div class="quiz__number">
+        Question
+        <span class="quiz__span question__number"></span> of
+        <span class="quiz__span question__all-numbers"></span>
+      </div>
+      <div class="quiz__question question"></div>
+      <div class="quiz__answers answers">
+        <div data-id="0" class="answers__option answers__option-1"></div>
+        <div data-id="1" class="answers__option answers__option-2"></div>
+        <div data-id="2" class="answers__option answers__option-3"></div>
+        <div data-id="3" class="answers__option answers__option-4"></div>
+      </div>
+      <div class="quiz__button">
+        <button class="quiz__btn">Next</button>
+      </div>
+    </div>
+    <div class="popup">
+      <div class="popup__content">
+        <h2 class="popup__title">Good Result</h2>
+        <div class="popup__text">
+          You answered correctly
+          <span class="popup__span popup__correct"></span> questions out of
+          <span class="popup__span popup__all-questions"></span>
+        </div>
+        <button class="popup__try-again">Try again</button>
+      </div>
+    </div>
+    <script defer src="./app/app.js"></script>
+</body>
+
+</html>
